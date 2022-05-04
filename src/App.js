@@ -1,5 +1,6 @@
 import './App.css';
-import C7eventhandling from './Components/C7eventhandling';
+// import C7eventhandling from './Components/C7eventhandling';
+import C8binding from './Components/C8binding';
 // import C6Destructing from './Components/C6Destructing';
 // import C5setState from './Components/C5setState';
 // import C4State from './Components/C4State';
@@ -18,7 +19,8 @@ function App() {
       {/* <C4State /> */}
       {/* <C5setState /> */}
       {/* <C6Destructing name="Jiten" heroName="Batman" /> */}
-      <C7eventhandling />
+      {/* <C7eventhandling /> */}
+      <C8binding />
     </div>
   );
 }
