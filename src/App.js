@@ -1,5 +1,6 @@
 import './App.css';
-import C6Destructing from './Components/C6Destructing';
+import C7eventhandling from './Components/C7eventhandling';
+// import C6Destructing from './Components/C6Destructing';
 // import C5setState from './Components/C5setState';
 // import C4State from './Components/C4State';
 // import C1Greet from './Components/C1Greet';
@@ -16,7 +17,8 @@ function App() {
       {/* <C3prop name="Sundar" heroName="Spiderman" /> */}
       {/* <C4State /> */}
       {/* <C5setState /> */}
-      <C6Destructing name="Jiten" heroName="Batman" />
+      {/* <C6Destructing name="Jiten" heroName="Batman" /> */}
+      <C7eventhandling />
     </div>
   );
 }
