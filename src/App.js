@@ -1,5 +1,6 @@
 import './App.css';
-import C9parentcomp from './Components/C9parentcomp';
+import C10condrendering from './Components/C10condrendering';
+// import C9parentcomp from './Components/C9parentcomp';
 // import C7eventhandling from './Components/C7eventhandling';
 // import C8binding from './Components/C8binding';
 // import C6Destructing from './Components/C6Destructing';
@@ -22,7 +23,8 @@ function App() {
       {/* <C6Destructing name="Jiten" heroName="Batman" /> */}
       {/* <C7eventhandling /> */}
       {/* <C8binding /> */}
-      <C9parentcomp />
+      {/* <C9parentcomp /> */}
+      <C10condrendering />
     </div>
   );
 }
