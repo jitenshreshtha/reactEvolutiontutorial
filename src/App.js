@@ -1,5 +1,6 @@
 import './App.css';
-import C10condrendering from './Components/C10condrendering';
+import C11list from './Components/C11list';
+// import C10condrendering from './Components/C10condrendering';
 // import C9parentcomp from './Components/C9parentcomp';
 // import C7eventhandling from './Components/C7eventhandling';
 // import C8binding from './Components/C8binding';
@@ -24,7 +25,8 @@ function App() {
       {/* <C7eventhandling /> */}
       {/* <C8binding /> */}
       {/* <C9parentcomp /> */}
-      <C10condrendering />
+      {/* <C10condrendering /> */}
+      <C11list />
     </div>
   );
 }
