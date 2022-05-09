@@ -1,6 +1,7 @@
 import './App.css';
+import C16memo from './Components/C16memo';
 // import C14fragments from './Components/C14fragments';
-import C15purecomp from './Components/C15purecomp';
+// import C15purecomp from './Components/C15purecomp';
 // import C13formHandling from './Components/C13formHandling';
 // import C12stylesheet from './Components/C12stylesheet';
 // import C11list from './Components/C11list';
@@ -34,7 +35,8 @@ function App() {
       {/* <C12stylesheet /> */}
       {/* <C13formHandling /> */}
       {/* <C14fragments /> */}
-      <C15purecomp />
+      {/* <C15purecomp /> */}
+      <C16memo />
     </div>
   );
 }
