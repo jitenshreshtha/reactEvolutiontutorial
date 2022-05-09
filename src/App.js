@@ -1,5 +1,6 @@
 import './App.css';
-import C13formHandling from './Components/C13formHandling';
+import C14fragments from './Components/C14fragments';
+// import C13formHandling from './Components/C13formHandling';
 // import C12stylesheet from './Components/C12stylesheet';
 // import C11list from './Components/C11list';
 // import C10condrendering from './Components/C10condrendering';
@@ -30,7 +31,8 @@ function App() {
       {/* <C10condrendering /> */}
       {/* <C11list /> */}
       {/* <C12stylesheet /> */}
-      <C13formHandling />
+      {/* <C13formHandling /> */}
+      <C14fragments />
     </div>
   );
 }
