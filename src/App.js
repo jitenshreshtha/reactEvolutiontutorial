@@ -1,5 +1,7 @@
 import './App.css';
-import C19portal from './Components/C19portal';
+import C20errorboundary from './Components/C20errorboundary';
+import C20errorhandling from './Components/C20errorhandling';
+// import C19portal from './Components/C19portal';
 // import C17refs from './Components/C17refs';
 // import C18refsclass from './Components/C18refsclass';
 // import C16memo from './Components/C16memo';
@@ -42,7 +44,13 @@ function App() {
       {/* <C16memo /> */}
       {/* <C17refs /> */}
       {/* <C18refsclass /> */}
-      <C19portal />
+      {/* <C19portal /> */}
+      <C20errorboundary>
+      <C20errorhandling heroName="Batman"/>
+      <C20errorhandling heroName="Superman"/>
+      <C20errorhandling heroName="joker"/>
+      </C20errorboundary>
+     
     </div>
   );
 }
