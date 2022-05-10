@@ -1,5 +1,6 @@
 import './App.css';
-import C17refs from './Components/C17refs';
+// import C17refs from './Components/C17refs';
+import C18refsclass from './Components/C18refsclass';
 // import C16memo from './Components/C16memo';
 // import C14fragments from './Components/C14fragments';
 // import C15purecomp from './Components/C15purecomp';
@@ -38,7 +39,8 @@ function App() {
       {/* <C14fragments /> */}
       {/* <C15purecomp /> */}
       {/* <C16memo /> */}
-      <C17refs />
+      {/* <C17refs /> */}
+      <C18refsclass />
     </div>
   );
 }
