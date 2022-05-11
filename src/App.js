@@ -1,5 +1,6 @@
 import './App.css';
-import C22mainHOC from './Components/C22mainHOC';
+import C23render from './Components/C23render';
+// import C22mainHOC from './Components/C22mainHOC';
 // import C21hoc from './Components/C21hoc';
 // import C21hoc2 from './Components/C21hoc2';
 // import C20errorboundary from './Components/C20errorboundary';
@@ -55,7 +56,8 @@ function App() {
       </C20errorboundary> */}
       {/* <C21hoc /> */}
       {/* <C21hoc2 /> */}
-      <C22mainHOC />
+      {/* <C22mainHOC /> */}
+      <C23render render={()=>'Hello'}/>
      
     </div>
   );
