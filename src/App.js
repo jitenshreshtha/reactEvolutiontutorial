@@ -1,6 +1,9 @@
 import './App.css';
-import C20errorboundary from './Components/C20errorboundary';
-import C20errorhandling from './Components/C20errorhandling';
+import C22mainHOC from './Components/C22mainHOC';
+// import C21hoc from './Components/C21hoc';
+// import C21hoc2 from './Components/C21hoc2';
+// import C20errorboundary from './Components/C20errorboundary';
+// import C20errorhandling from './Components/C20errorhandling';
 // import C19portal from './Components/C19portal';
 // import C17refs from './Components/C17refs';
 // import C18refsclass from './Components/C18refsclass';
@@ -45,11 +48,14 @@ function App() {
       {/* <C17refs /> */}
       {/* <C18refsclass /> */}
       {/* <C19portal /> */}
-      <C20errorboundary>
+      {/* <C20errorboundary>
       <C20errorhandling heroName="Batman"/>
       <C20errorhandling heroName="Superman"/>
       <C20errorhandling heroName="joker"/>
-      </C20errorboundary>
+      </C20errorboundary> */}
+      {/* <C21hoc /> */}
+      {/* <C21hoc2 /> */}
+      <C22mainHOC />
      
     </div>
   );
