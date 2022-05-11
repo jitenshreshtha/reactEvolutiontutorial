@@ -1,5 +1,7 @@
 import './App.css';
-import C23render from './Components/C23render';
+import { UserProvider } from './Components/C24Context';
+import C24contextC from './Components/C24contextC';
+// import C23render from './Components/C23render';
 // import C22mainHOC from './Components/C22mainHOC';
 // import C21hoc from './Components/C21hoc';
 // import C21hoc2 from './Components/C21hoc2';
@@ -57,7 +59,10 @@ function App() {
       {/* <C21hoc /> */}
       {/* <C21hoc2 /> */}
       {/* <C22mainHOC /> */}
-      <C23render render={()=>'Hello'}/>
+      {/* <C23render render={()=>'Hello'}/> */}
+      <UserProvider value="Jiten">
+        <C24contextC />
+      </UserProvider>
      
     </div>
   );
